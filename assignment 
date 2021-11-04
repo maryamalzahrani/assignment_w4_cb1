@@ -1,0 +1,110 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "private_outputs": true,
+      "provenance": [],
+      "authorship_tag": "ABX9TyNZ9bGgJANKdecwQtPwfbqz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/maryamalzahrani/assignment_w4_cb1/blob/main/assignment%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "W7kG7ucWVft-"
+      },
+      "source": [
+        "import pandas"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "vZFdFQrlcu0d"
+      },
+      "source": [
+        "start_year = '2020'\n",
+        "end_year = '2030'\n",
+        "\n",
+        "revenue_growth_rate = 0.12\n",
+        "revenue_growth_factor = 1.12\n",
+        "ebitda_factor = 0.50\n",
+        "taxes = 0.40\n",
+        "capital_expenditures = 0.02\n",
+        "working_cpital_increase = 0.02\n",
+        "ebitda_exit_multiple = 10\n",
+        "disconunt_rate = 0.10\n",
+        "discount_factor = 0.91"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "PAPS1NPccu70"
+      },
+      "source": [
+        "dates = pandas.date_range(start=start_year,end=end_year,freq='Y')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "8NjnxMhVcvCM"
+      },
+      "source": [
+        "df = pandas.dataframe(index=dates)\n",
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "t2IzIpM0cvI8"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Lgh6VgUpcvSU"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
